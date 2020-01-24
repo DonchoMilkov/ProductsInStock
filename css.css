@@ -1,0 +1,72 @@
+﻿.outOfProduct {
+    color: #888;
+    background-color: #ccc;
+}
+#ProductTable {
+    width:90%;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius:20px;
+}
+#ProductTable td, th {
+    border: 0;
+}
+#ProductTable th {
+    border-bottom: 1px solid black;
+}
+#ProductTable td {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-bottom: 0.5px solid gray;
+}
+.DeliveryOn, .UnitsInStock, .UnitPrice {
+        text-align: right;
+    }
+.ProductID, .ProductName {
+    text-align:left;
+}
+
+#ProductTable tr:hover {
+    background-color: cornflowerblue;
+}
+#ProductTable thead tr:hover {
+    background-color: transparent;
+}
+
+.hidden{
+    display:none;
+}
+.productContainer {
+    width: 40%;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    border: 10px solid #888;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 20;
+}
+.productContainer .propertyNames{
+    text-align:left;
+    width:100px;
+}
+    .productContainer .propertyValues {
+        text-align: left;
+        font-weight: bold;
+    }
+.disabled-background{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    z-index:10;
+}
+.blurred {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
